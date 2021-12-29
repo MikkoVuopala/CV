@@ -1,0 +1,61 @@
+.container {
+    background-color: #cff6ff;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: .4fr 1fr 1fr 3fr 2fr 1fr 1fr .4fr;
+    grid-template-areas: 
+    "nav nav nav nav"
+    "pn pn pn pn"
+    "ls pro pro pro"
+    "ls exp exp exp"
+    "ls edu edu edu"
+    "ls oth oth oth"
+    "ls hob hob hob"
+    "foot foot foot foot";
+}
+
+nav {
+    background-color: blue;
+    grid-area: nav;
+}
+
+#photo_name {
+    background-color: pink;
+    grid-area: pn;
+}
+
+#lang_skills {
+    background-color: lightblue;
+    grid-area: ls;
+}
+
+#profile {
+    background-color: green;
+    grid-area: pro;
+}
+
+#exp {
+    background-color: yellow;
+    grid-area: exp;
+}
+
+#edu {
+    background-color: green;
+    grid-area: edu;
+}
+
+#other {
+    background-color: red;
+    grid-area: oth;
+}
+
+#hobbies {
+    background-color: darkgray;
+    grid-area: hob;
+}
+
+footer {
+    background-color: darkblue;
+    grid-area: foot;
+}
