@@ -3,7 +3,7 @@
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 3rem 15rem 15rem 30rem 22.5rem 20rem 15rem 3rem;
+    grid-template-rows: 3rem 17.5rem 15rem 22.5rem 20rem 12.5rem 12.5rem 3rem;
     grid-template-areas: 
     "nav nav nav nav nav"
     "pn pn pn pn pn"
@@ -20,12 +20,20 @@ nav {
     grid-area: nav;
 }
 
-#photo_name {
+.photo_name {
     background-color: pink;
     grid-area: pn;
 }
 
-#lang_skills {
+#photo {
+    
+}
+
+#name {
+    
+}
+
+.lang_skills {
     background-color: lightblue;
     grid-area: ls;
 }
