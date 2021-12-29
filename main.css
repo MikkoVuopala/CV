@@ -2,17 +2,17 @@
     background-color: #cff6ff;
     display: grid;
     height: 100vh;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: .4fr 1fr 1fr 3fr 2fr 1fr 1fr .4fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 3rem 15rem 15rem 30rem 22.5rem 20rem 15rem 3rem;
     grid-template-areas: 
-    "nav nav nav nav"
-    "pn pn pn pn"
-    "ls pro pro pro"
-    "ls exp exp exp"
-    "ls edu edu edu"
-    "ls oth oth oth"
-    "ls hob hob hob"
-    "foot foot foot foot";
+    "nav nav nav nav nav"
+    "pn pn pn pn pn"
+    "ls pro pro pro pro"
+    "ls exp exp exp exp"
+    "ls edu edu edu edu"
+    "ls oth oth oth oth"
+    "ls hob hob hob hob"
+    "foot foot foot foot foot";
 }
 
 nav {
