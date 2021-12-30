@@ -20,6 +20,20 @@ nav {
     grid-area: nav;
 }
 
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    color: white;
+    
+}
+
 #photo {
     background-color: pink;
     grid-area: pho;
