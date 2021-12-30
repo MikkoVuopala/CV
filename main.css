@@ -6,7 +6,7 @@
     grid-template-rows: 3rem 17.5rem 15rem 22.5rem 20rem 12.5rem 12.5rem 3rem;
     grid-template-areas: 
     "nav nav nav nav nav"
-    "pn pn pn pn pn"
+    "pho n n n n"
     "ls pro pro pro pro"
     "ls exp exp exp exp"
     "ls edu edu edu edu"
@@ -20,17 +20,19 @@ nav {
     grid-area: nav;
 }
 
-.photo_name {
+#photo {
     background-color: pink;
-    grid-area: pn;
+    grid-area: pho;
 }
 
-#photo {
-    
+#photo img{
+    width: 17.5rem;
+    height: 17.5rem;
 }
 
 #name {
-    
+    background-color: pink;
+    grid-area: n;
 }
 
 .lang_skills {
