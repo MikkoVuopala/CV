@@ -82,7 +82,7 @@ a {
     height: 17.5rem;
 }
 
-#name {
+.name {
     background-color: whitesmoke;
     grid-area: n;
 }
@@ -92,27 +92,27 @@ a {
     grid-area: ls;
 }
 
-#profile {
+.profile {
     background-color: whitesmoke;
     grid-area: pro;
 }
 
-#exp {
+.exp {
     background-color: whitesmoke;
     grid-area: exp;
 }
 
-#edu {
+.edu {
     background-color: whitesmoke;
     grid-area: edu;
 }
 
-#other {
+.other {
     background-color: whitesmoke;
     grid-area: oth;
 }
 
-#hobbies {
+.hobbies {
     background-color: whitesmoke;
     grid-area: hob;
 }
