@@ -1,5 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .container {
-    background-color: #cff6ff;
+    background-color: whitesmoke;
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -15,12 +24,41 @@
     "foot foot foot foot foot";
 }
 
-nav {
-    background-color: blue;
+.navbar {
+    background-color: darkblue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     grid-area: nav;
 }
 
-ul {
+.headline {
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li {
+    list-style: none;
+    padding: 1rem;
+}
+
+.navbar-links li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.navbar-links li:hover {
+    background-color: lightblue;
+}
+/* ul {
     list-style-type: none;
     text-align: center;
 }
@@ -32,10 +70,10 @@ li {
 a {
     color: white;
     
-}
+} */
 
 #photo {
-    background-color: pink;
+    background-color: whitesmoke;
     grid-area: pho;
 }
 
@@ -45,41 +83,41 @@ a {
 }
 
 #name {
-    background-color: pink;
+    background-color: whitesmoke;
     grid-area: n;
 }
 
 .lang_skills {
-    background-color: lightblue;
+    background-color: whitesmoke;
     grid-area: ls;
 }
 
 #profile {
-    background-color: green;
+    background-color: whitesmoke;
     grid-area: pro;
 }
 
 #exp {
-    background-color: yellow;
+    background-color: whitesmoke;
     grid-area: exp;
 }
 
 #edu {
-    background-color: green;
+    background-color: whitesmoke;
     grid-area: edu;
 }
 
 #other {
-    background-color: red;
+    background-color: whitesmoke;
     grid-area: oth;
 }
 
 #hobbies {
-    background-color: darkgray;
+    background-color: whitesmoke;
     grid-area: hob;
 }
 
 footer {
-    background-color: darkblue;
+    background-color: whitesmoke;
     grid-area: foot;
 }
