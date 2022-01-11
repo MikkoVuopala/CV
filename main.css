@@ -13,7 +13,7 @@ body {
     height: 100vh;
     grid-gap: 2em;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 3rem 17.5rem 15rem 25rem 25rem 15rem 15rem 3rem;
+    grid-template-rows: 3rem 17.5rem 15rem 25rem 25rem 20rem 20rem 3rem;
     grid-template-areas: 
     "nav nav nav nav nav"
     "pho n n n n"
@@ -113,6 +113,14 @@ body {
     background-color: whitesmoke;
     grid-area: pro;
     border: 2px solid black;
+}
+
+.profile h3 {
+    text-align: center;
+}
+
+.profile p {
+    font-size: x-large;
 }
 
 .exp {
