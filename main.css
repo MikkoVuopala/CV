@@ -5,6 +5,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -23,6 +24,7 @@ body {
     "ls oth oth oth oth"
     "ls hob hob hob hob"
     "foot foot foot foot foot";
+    text-align: center;
 }
 
 .navbar {
@@ -116,11 +118,11 @@ body {
 }
 
 .profile h3 {
-    text-align: center;
+    
 }
 
 .profile p {
-    font-size: x-large;
+    font-size: large;
 }
 
 .exp {
@@ -148,6 +150,6 @@ body {
 }
 
 footer {
-    background-color: whitesmoke;
+    text-align: right;
     grid-area: foot;
 }
