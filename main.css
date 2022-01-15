@@ -117,10 +117,6 @@ body {
     border: 2px solid black;
 }
 
-.profile h3 {
-    
-}
-
 .profile p {
     font-size: large;
 }
@@ -129,6 +125,9 @@ body {
     background-color: whitesmoke;
     grid-area: exp;
     border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .edu {
@@ -141,6 +140,9 @@ body {
     background-color: whitesmoke;
     grid-area: oth;
     border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .hobbies {
