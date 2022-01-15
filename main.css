@@ -169,3 +169,25 @@ footer {
     text-align: right;
     grid-area: foot;
 }
+
+@media (max-width: 1000px) {
+    .container {
+        background-color: whitesmoke;
+        display: grid;
+        height: 100vh;
+        grid-gap: 2em;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 3rem 17.5rem 15rem 25rem 25rem 80rem 20rem 20rem 3rem;
+        grid-template-areas: 
+        "nav nav nav"
+        "pho n n"
+        "pro pro pro"
+        "exp exp exp"
+        "edu edu edu"
+        "ls ls ls"
+        "oth oth oth"
+        "hob hob hob"
+        "foot foot foot";
+        text-align: center;
+    }
+}
