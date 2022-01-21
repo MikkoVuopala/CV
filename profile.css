@@ -12,12 +12,12 @@ body {
     background-color: whitesmoke;
     display: grid;
     height: 100vh;
-    grid-template-columns: 1fr;
+    grid-template-columns: 2fr 3fr;
     grid-template-rows: 5% 85% 5%;
     grid-template-areas: 
-    "nav"
-    "profile"
-    "foot";
+    "nav nav"
+    "photo profile"
+    "foot foot";
     grid-gap: 1rem;
 }
 
@@ -56,8 +56,12 @@ body {
     background-color: lightblue;
 }
 
+.photo {
+    grid-area: photo;
+}
+
 .profile {
-    
+    grid-area: profile;
 }
 
 .foot {
