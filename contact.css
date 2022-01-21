@@ -66,9 +66,11 @@ body {
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
+    grid-area: contact;
 }
 
 .foot {
     padding-right: 1rem;
     text-align: right;
+    grid-area: foot;
 }
