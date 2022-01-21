@@ -6,6 +6,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    height: 100%;
+    overflow: hidden;
 }
 
 .container {
@@ -13,12 +15,11 @@ body {
     display: grid;
     height: 100vh;
     grid-template-columns: 2fr 3fr;
-    grid-template-rows: 5% 85% 5%;
+    grid-template-rows: 5% 90% 5%;
     grid-template-areas: 
     "nav nav"
     "photo profile"
-    "foot foot";
-    grid-gap: 1rem;
+    "photo foot";
 }
 
 .navbar {
@@ -58,10 +59,31 @@ body {
 
 .photo {
     grid-area: photo;
+    display: block;
+}
+
+.photo img {
+    width: 100%;
 }
 
 .profile {
     grid-area: profile;
+    margin: .3rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+    background-color: lightgrey;
+}
+
+.profile h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.profile p {
+    padding: .5rem;
+    font-size: 1.5rem;
+    word-spacing: .1rem;
+    line-height: 180%;
 }
 
 .foot {
