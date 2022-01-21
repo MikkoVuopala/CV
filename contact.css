@@ -13,11 +13,12 @@ body {
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr;
-    grid-template-rows: 5% 90% 5%;
+    grid-template-rows: 5% 85% 5%;
     grid-template-areas: 
     "nav"
     "contact"
     "foot";
+    grid-gap: 1rem;
 }
 
 .navbar {
@@ -53,4 +54,21 @@ body {
 
 .navbar-links li:hover {
     background-color: lightblue;
+}
+
+.contact {
+    background-color: lightgrey;
+    border: 2px solid black;
+    border-radius: 1.5rem;
+    margin: 1.5rem;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.foot {
+    padding-right: 1rem;
+    text-align: right;
 }
