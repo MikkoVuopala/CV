@@ -171,6 +171,24 @@ footer {
     grid-area: foot;
 }
 
+.toggle-button {
+    position: absolute;
+    top: 1.2rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
 /*Laptop view*/
 @media (max-width: 1024px) {
     .container {
@@ -218,23 +236,56 @@ footer {
 /*Smartphone view*/
 @media (max-width: 425px) {
     .container {
-        background-color: whitesmoke;
-        display: grid;
-        height: 100vh;
-        grid-gap: 2em;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 3rem 17.5rem 25rem 25rem 30rem 32rem 100rem 25rem 25rem 3rem;
-        grid-template-areas: 
-        "nav nav nav"
-        "pho pho pho"
-        "n n n"
-        "pro pro pro"
-        "exp exp exp"
-        "edu edu edu"
-        "ls ls ls"
-        "oth oth oth"
-        "hob hob hob"
-        "foot foot foot";
+        display: flex;
+        flex-direction: column;
+    }
+    /*.container:nth-child(1) {order: 1;}
+    .container:nth-child(2) {order: 1;}
+    .container:nth-child(3) {order: 1;}
+    .container:nth-child(4) {order: 2;}
+    .container:nth-child(5) {order: 1;}
+    .container:nth-child(6) {order: 2;}
+    .container:nth-child(7) {order: 2;}
+    .container:nth-child(8) {order: 2;}
+    .container:nth-child(9) {order: 2;}
+    .container:nth-child(10) {order: 2;}*/
+
+    .link-btn {
+        display: inline-block;
+        position: static;
+        background-color: darkblue;
+        color: white;
+        text-decoration: none;
+        text-align: right;
+        border: 1px solid black;
+        border-radius: 1rem;
+        padding: 1rem;
+        margin: 2px;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links li {
         text-align: center;
+    }
+
+    .navbar-links.active {
+        display: flex;
     }
 }
