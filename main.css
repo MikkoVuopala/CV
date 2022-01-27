@@ -100,6 +100,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     border: 2px solid black;
+    border-radius: 1rem;
     grid-area: ls;
     margin-left: 1px
 }
@@ -117,6 +118,7 @@ body {
     background-color: whitesmoke;
     grid-area: pro;
     border: 2px solid black;
+    border-radius: 1rem;
 }
 
 .profile p {
@@ -127,6 +129,7 @@ body {
     background-color: whitesmoke;
     grid-area: exp;
     border: 2px solid black;
+    border-radius: 1rem;
 }
 .link-btn {
     display: block;
@@ -149,6 +152,7 @@ body {
     background-color: whitesmoke;
     grid-area: edu;
     border: 2px solid black;
+    border-radius: 1rem;
 }
 
 .other {
@@ -158,12 +162,14 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border-radius: 1rem;
 }
 
 .hobbies {
     background-color: whitesmoke;
     grid-area: hob;
     border: 2px solid black;
+    border-radius: 1rem;
 }
 
 footer {
