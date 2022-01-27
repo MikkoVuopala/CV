@@ -171,17 +171,63 @@ footer {
     grid-area: foot;
 }
 
-@media (max-width: 1000px) {
+/*Laptop view*/
+@media (max-width: 1024px) {
     .container {
         background-color: whitesmoke;
         display: grid;
         height: 100vh;
         grid-gap: 2em;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 3rem 17.5rem 15rem 25rem 30rem 80rem 20rem 20rem 3rem;
+        grid-template-rows: 3rem 17.5rem 15rem 25rem 30rem 80rem 20rem 25rem 3rem;
         grid-template-areas: 
         "nav nav nav"
         "pho n n"
+        "pro pro pro"
+        "exp exp exp"
+        "edu edu edu"
+        "ls ls ls"
+        "oth oth oth"
+        "hob hob hob"
+        "foot foot foot";
+        text-align: center;
+    }
+}
+/*Tablet view*/
+@media (max-width: 800px) {
+    .container {
+        background-color: whitesmoke;
+        display: grid;
+        height: 100vh;
+        grid-gap: 2em;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 3rem 22rem 15rem 25rem 30rem 80rem 20rem 25rem 3rem;
+        grid-template-areas: 
+        "nav nav nav"
+        "pho n n"
+        "pro pro pro"
+        "exp exp exp"
+        "edu edu edu"
+        "ls ls ls"
+        "oth oth oth"
+        "hob hob hob"
+        "foot foot foot";
+        text-align: center;
+    }
+}
+/*Smartphone view*/
+@media (max-width: 425px) {
+    .container {
+        background-color: whitesmoke;
+        display: grid;
+        height: 100vh;
+        grid-gap: 2em;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 3rem 17.5rem 25rem 25rem 30rem 32rem 100rem 25rem 25rem 3rem;
+        grid-template-areas: 
+        "nav nav nav"
+        "pho pho pho"
+        "n n n"
         "pro pro pro"
         "exp exp exp"
         "edu edu edu"
