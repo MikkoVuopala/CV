@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: whitesmoke;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 5% 43% 43% 4%;
+    grid-template-areas: 
+    "nav nav"
+    "exp-1 exp-3"
+    "exp-2 exp-3"
+    "foot foot";
+    grid-gap: 1rem;
+}
+
+.navbar {
+    background-color: darkblue;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    grid-area: nav;
+}
+
+.headline {
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li {
+    list-style: none;
+    padding: 1rem;
+}
+
+.navbar-links li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.navbar-links li:hover {
+    background-color: lightblue;
+}
+
+.exp-1 {
+    background-color: whitesmoke;
+    grid-area: exp-1;
+    border: 2px solid black;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    font-size: large;
+    line-height: 190%;
+}
+
+.exp-2 {
+    background-color: whitesmoke;
+    grid-area: exp-2;
+    border: 2px solid black;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    font-size: large;
+    line-height: 190%;
+}
+
+.exp-3 {
+    background-color: whitesmoke;
+    grid-area: exp-3;
+    border: 2px solid black;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    font-size: large;
+    line-height: 190%;
+}
+
+.foot {
+    padding-right: 1rem;
+    text-align: right;
+    grid-area: foot;
+}
+
+span {
+    font-size: x-large;
+}
