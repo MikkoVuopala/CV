@@ -126,6 +126,11 @@ body {
         display: flex;
         flex-direction: column;
     }
+
+    .profile {
+        padding: 1rem;
+    }
+
     img {
         display: none;
     }
