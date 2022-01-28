@@ -245,6 +245,14 @@ footer {
         display: flex;
         flex-direction: column;
     }
+    .profile {
+        padding: 1rem;
+    }
+
+    .strengths{
+       padding: 1rem;
+    }
+
     /*.container:nth-child(1) {order: 1;}
     .container:nth-child(2) {order: 1;}
     .container:nth-child(3) {order: 1;}

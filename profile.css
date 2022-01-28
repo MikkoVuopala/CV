@@ -118,6 +118,9 @@ body {
         display: flex;
         flex-direction: column;
     }
+    .profile {
+        padding: 1rem;
+    }
 }
 
 /*mobile view*/
